@@ -42,9 +42,7 @@ where
 
 == INSTALLATION ==
 Run the following commands in the command line:
-1.) tar zxf stegan.tgz
-2.) cd stegan
-2.) ./stegan <operation> <file1, file2,...>
+1.) ./stegan <operation> <file1, file2,...>
 
 
 == THIRD PARTY SOFTWARE ==
