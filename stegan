@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ ! -f Stegano.class -o Stegano.java -nt Stegano.class ]; then
+  javac Stegano.java
+fi
+
+java Stegano "$@"
+

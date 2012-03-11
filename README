@@ -1,0 +1,51 @@
+﻿README
+
+Stegan
+
+
+== CONTRIBUTORS ==
+Ryan Aghdam, ryan.aghdam@gmail.com
+Casey Brown, caseybrown89@gmail.com
+Skander Chouka, skanderchouka@gmail.com
+Elise Murray, elisemurray22@gmail.com
+
+
+== USAGE ==
+Requires Java 1.6 or higher
+All audio files should be in WAVE format
+
+Commands:
+    ./stegan --encode file1 file2 file3
+    ./stegan --decode file4 file5
+
+where
+
+    file1 is the name of an existing WAVE file that
+    contains an audio recording (the "carrier").
+
+    file2 is the name of an existing file (of arbitrary type)
+    that contains the binary message to be added to file1.
+
+    file3 is the name of the WAVE file to be created
+    by adding the binary message in file2 to the recording
+    in file1.
+
+    file4 is the name of an existing WAVE file that
+    may have been created by your software (as the file3 in
+    the --encode direction).
+
+    file5 is the name of a file to be created by extracting
+    a binary message from file4 (under the assumption that
+    file4 was created by your software as the file3 in the
+    --encode direction).
+
+
+== INSTALLATION ==
+Run the following commands in the command line:
+1.) tar zxf stegan.tgz
+2.) cd stegan
+2.) ./stegan <operation> <file1, file2,...>
+
+
+== THIRD PARTY SOFTWARE ==
+No third party software was used in the creation of Stegan
